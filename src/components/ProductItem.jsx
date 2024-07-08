@@ -70,7 +70,7 @@ function ProductItem({ el }) {
             Add to Cart
           </button>
         ) : (
-          <div className="flex md:block lg:block ">
+          <div className="flex w-full md:block lg:block ">
             <button
               className="bg-black px-2 text-white text-sm py-1 rounded-md "
               onClick={() => handleCount(el.id, -1)}
